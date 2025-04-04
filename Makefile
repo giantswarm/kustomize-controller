@@ -1,5 +1,5 @@
 # Image URL to use all building/pushing image targets
-IMG ?= fluxcd/kustomize-controller:latest
+IMG ?= quay.io/giantswarm/kustomize-controller:latest
 # Produce CRDs that work back to Kubernetes 1.16
 CRD_OPTIONS ?= crd:crdVersions=v1
 SOURCE_VER ?= $(shell go list -m all | grep github.com/fluxcd/source-controller/api | awk '{print $$2}')
@@ -219,7 +219,7 @@ fuzz-smoketest: fuzz-build
 		bash -c "/runner.sh"
 
 # Run fuzz tests for the duration set in FUZZ_TIME.
-fuzz-native: 
+fuzz-native:
 	KUBEBUILDER_ASSETS=$(KUBEBUILDER_ASSETS) \
 	FUZZ_TIME=$(FUZZ_TIME) \
 		./tests/fuzz/native_go_run.sh

@@ -142,8 +142,6 @@ github.com/fluxcd/pkg/apis/meta v1.3.0 h1:KxeEc6olmSZvQ5pBONPE4IKxyoWQbqTJF1X6K5
 github.com/fluxcd/pkg/apis/meta v1.3.0/go.mod h1:3Ui8xFkoU4sYehqmscjpq7NjqH2YN1A2iX2okbO3/yA=
 github.com/fluxcd/pkg/http/fetch v0.9.0 h1:SfQ6IZkucmKJEuTS4jlKJX6jJNPcNqucBOm6SkMztoE=
 github.com/fluxcd/pkg/http/fetch v0.9.0/go.mod h1:e5Ery19r+YHP1NFpo8ZQyC2fYrwnfYVmh2Bz8vH783s=
-github.com/fluxcd/pkg/kustomize v1.6.0 h1:LIZ0BkpGLkyj33yzJ3HUsNzJ20wcLSxkUFcZg9kpg34=
-github.com/fluxcd/pkg/kustomize v1.6.0/go.mod h1:LitgZWd9+2X9g+Y4JeyZJewel+E10OIkUaUw4t4YWM8=
 github.com/fluxcd/pkg/runtime v0.44.0 h1:0BEPSpcsYXOiswKG5TWkin8fhCDHb0nDdAtq/5VrCSI=
 github.com/fluxcd/pkg/runtime v0.44.0/go.mod h1:s1AhSOTCEBPaTfz/GdBD/Ws66uOByIuNP4Znrq+is9M=
 github.com/fluxcd/pkg/sourceignore v0.5.0 h1:8ffSJCRIKsMpxXjGPVeRK3xhGUjuk+tFILf/+EODCVg=
@@ -162,6 +160,8 @@ github.com/getsops/gopgagent v0.0.0-20170926210634-4d7ea76ff71a h1:qc+7TV35Pq/Fl
 github.com/getsops/gopgagent v0.0.0-20170926210634-4d7ea76ff71a/go.mod h1:awFzISqLJoZLm+i9QQ4SgMNHDqljH6jWV0B36V5MrUM=
 github.com/getsops/sops/v3 v3.8.1 h1:3A6KZEHAolxfXtlgRjncCotTGRiNaQFhSDOB2CUCojY=
 github.com/getsops/sops/v3 v3.8.1/go.mod h1:qyVOmSwvNRUzspJ7X/mh/J8HmDV81OQ5PgDoGSmvvHM=
+github.com/giantswarm/fluxcd-pkg/kustomize v1.6.1-0.20250509103530-af0f96a1cffa h1:owPLLMrQSHd/3pLuuJt3FLAXXEthnB1SPA58C24XbPo=
+github.com/giantswarm/fluxcd-pkg/kustomize v1.6.1-0.20250509103530-af0f96a1cffa/go.mod h1:LitgZWd9+2X9g+Y4JeyZJewel+E10OIkUaUw4t4YWM8=
 github.com/go-errors/errors v1.5.1 h1:ZwEMSLRCapFLflTpT7NKaAc7ukJ8ZPEjzlxt8rPN8bk=
 github.com/go-errors/errors v1.5.1/go.mod h1:sIVyrIiJhuEF+Pj9Ebtd6P/rEYROXFi3BopGUQ5a5Og=
 github.com/go-git/gcfg v1.5.1-0.20230307220236-3a3c6141e376 h1:+zs/tPmkDkHx3U66DAb0lQFJrpS6731Oaa12ikc+DiI=
