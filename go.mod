@@ -57,6 +57,8 @@ replace (
 	sigs.k8s.io/kustomize/kyaml => sigs.k8s.io/kustomize/kyaml v0.21.1
 )
 
+replace github.com/fluxcd/pkg/kustomize => github.com/giantswarm/fluxcd-pkg/kustomize v1.27.3-0.20260909153009-853cf9e5eb5d
+
 // Fix CVE-2022-28948
 replace gopkg.in/yaml.v3 => gopkg.in/yaml.v3 v3.0.1
 
