@@ -43,4 +43,7 @@ USER 65534:65534
 
 ENV GNUPGHOME=/tmp
 
+# kustomize plugins require WORKDIR to be set to something else than `/`.
+WORKDIR /home/controller
+
 ENTRYPOINT [ "/sbin/tini", "--", "kustomize-controller" ]

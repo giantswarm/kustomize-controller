@@ -196,8 +196,6 @@ github.com/fluxcd/pkg/envsubst v1.4.0 h1:pYsb6wrmXOSfHXuXQHaaBBMt3LumhgCb8SMdBNA
 github.com/fluxcd/pkg/envsubst v1.4.0/go.mod h1:zSDFO3Wawi+vI2NPxsMQp+EkIsz/85MNg/s1Wzmqt+s=
 github.com/fluxcd/pkg/http/fetch v0.16.0 h1:XzhBTSK5HNdAPEnEGMJHwtoN2LfqQ9QFDsu3DGzl908=
 github.com/fluxcd/pkg/http/fetch v0.16.0/go.mod h1:+A+yrOzwA5436ufD8NPeCCQFNzk4metoPUgRVCozvzw=
-github.com/fluxcd/pkg/kustomize v1.18.0 h1:wWK+qYwmBmba3N3VAqZ9ijnfVGGaIjcaHWo033URZTw=
-github.com/fluxcd/pkg/kustomize v1.18.0/go.mod h1:Ij9722MdWIE6B1EPg2ZJUf6npycgfRfN4Lohi7D/Kic=
 github.com/fluxcd/pkg/runtime v0.60.0 h1:d++EkV3FlycB+bzakB5NumwY4J8xts8i7lbvD6jBLeU=
 github.com/fluxcd/pkg/runtime v0.60.0/go.mod h1:UeU0/eZLErYC/1bTmgzBfNXhiHy9fuQzjfLK0HxRgxY=
 github.com/fluxcd/pkg/sourceignore v0.12.0 h1:jCIe6d50rQ3wdXPF0+PhhqN0XrTRIq3upMomPelI8Mw=
@@ -218,6 +216,8 @@ github.com/getsops/gopgagent v0.0.0-20241224165529-7044f28e491e h1:y/1nzrdF+RPds
 github.com/getsops/gopgagent v0.0.0-20241224165529-7044f28e491e/go.mod h1:awFzISqLJoZLm+i9QQ4SgMNHDqljH6jWV0B36V5MrUM=
 github.com/getsops/sops/v3 v3.10.2 h1:7t7lBXFcXJPsDMrpYoI36r8xIhjWUmEc8Qdjuwyo+WY=
 github.com/getsops/sops/v3 v3.10.2/go.mod h1:Dmtg1qKzFsAl+yqvMgjtnLGTC0l7RnSM6DDtFG7TEsk=
+github.com/giantswarm/fluxcd-pkg/kustomize v1.18.1-0.20260403125950-2d5b224c9e5c h1:7gXstRnmlBnRdzoO1GaOVqtgPsGcL2J08R4ALoLlcGo=
+github.com/giantswarm/fluxcd-pkg/kustomize v1.18.1-0.20260403125950-2d5b224c9e5c/go.mod h1:Ij9722MdWIE6B1EPg2ZJUf6npycgfRfN4Lohi7D/Kic=
 github.com/go-errors/errors v1.5.1 h1:ZwEMSLRCapFLflTpT7NKaAc7ukJ8ZPEjzlxt8rPN8bk=
 github.com/go-errors/errors v1.5.1/go.mod h1:sIVyrIiJhuEF+Pj9Ebtd6P/rEYROXFi3BopGUQ5a5Og=
 github.com/go-git/gcfg v1.5.1-0.20230307220236-3a3c6141e376 h1:+zs/tPmkDkHx3U66DAb0lQFJrpS6731Oaa12ikc+DiI=
