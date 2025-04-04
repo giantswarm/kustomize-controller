@@ -45,6 +45,8 @@ require (
 	sigs.k8s.io/yaml v1.4.0
 )
 
+replace github.com/fluxcd/pkg/kustomize => github.com/giantswarm/fluxcd-pkg/kustomize v1.5.1-0.20250403141443-be1b76279a7a
+
 // Pin kustomize to v5.3.0
 replace (
 	sigs.k8s.io/kustomize/api => sigs.k8s.io/kustomize/api v0.16.0
